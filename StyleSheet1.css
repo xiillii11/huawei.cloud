@@ -1,0 +1,86 @@
+/* StyleSheet1.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2e2e2df; 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(2, 4, 36); 
+}
+
+.logo {
+    height: 50px; 
+}
+
+.t {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.t li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.t li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: indianred;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.t li a:hover {
+    background-color: darkorange;
+}
+
+.t li a:active {
+    background-color: aliceblue;
+}
+
+.cr {
+    color: rgb(191, 18, 110);
+    margin: 20px 0; /* مسافة أعلى وأسفل بين الفقرات */
+    font-family: Arial, sans-serif; /* توحيد نوع الخط للفقرات */
+    line-height: 1.8; /* تحسين المسافة بين السطور */
+}
+
+h1#h {
+    color: darkgreen;
+    font-family: Arial, sans-serif; /* توحيد نوع الخط للعناوين الرئيسية */
+    text-align: center;
+    margin-top: 30px; /* مسافة أعلى */
+    margin-bottom: 20px; /* مسافة أسفل */
+}
+
+h2 {
+    color: rgb(13, 13, 93);
+    font-family: Arial, sans-serif; /* توحيد نوع الخط للعناوين الفرعية */
+    margin-top: 25px; /* مسافة أعلى */
+    margin-bottom: 15px; /* مسافة أسفل */
+    border-bottom: 2px solid rgb(13, 13, 93); /* خط أسفل العنوان */
+    padding-bottom: 5px; /* مسافة تحت العنوان */
+}
+
+p {
+    margin: 0 0 20px 0; /* مسافة أسفل الفقرات */
+    font-family: Arial, sans-serif; /* توحيد نوع الخط للفقرات */
+    line-height: 1.8; /* تحسين المسافة بين السطور */
+    color: #333; /* لون النص */
+}
+
+.main-image {
+    display: block;
+    margin: 20px auto; /* مركزية الصورة مع مسافة أعلى وأسفل */
+    max-width: 100%; /* تأكد من أن الصورة لا تتجاوز عرض الحاوية */
+    height: auto; /* الحفاظ على نسب أبعاد الصورة */
+}
